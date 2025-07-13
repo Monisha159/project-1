@@ -1,0 +1,53 @@
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    String string1 = "java";
+	    String string2 = "python";
+	    System.out.println(string1 == string2);
+	    
+	    int i = 50;
+	    short s = 55;
+	    long l = 168550;
+	    byte b = 1;
+	    float f = 4f;
+	    double d = 20.00;
+	    System.out.println("i"+i);
+	    System.out.println("s"+s);
+	    System.out.println("l"+l);
+	    System.out.println("b"+b);
+	    System.out.println("f"+f);
+	    System.out.println("d"+d);
+	     
+	     
+	     Scanner obj = new Scanner(System.in);
+	     String userName=obj.nextLine();
+	     int Age=obj.nextInt();
+	     long num=obj.nextLong();
+	     System.out.println("Enter userName:"+userName);
+	     System.out.println("Enter Age:"+Age);
+	     System.out.println("Enter long:"+num);
+	      
+	      
+	     class Animal{
+	         void eat(){
+	             System.out.println("Aniaml eat");
+	         }
+	     } 
+	     class Dog extends Animal{
+	         void bark(){
+	             System.out.println("Dog bark");
+	         }
+	     } 
+	      Dog j = new Dog();
+	      j.eat();
+	      j.bark();
+	      
+	      class family{
+	              System.out.println("");
+	         
+	          class father extends family("Father leads the family")
+	      }
+	}
+}
